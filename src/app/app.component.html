@@ -1,20 +1,159 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div style="text-align:left">
   <h1>
-    Welcome to {{ title }}!
+    Web Based Immunization Information System
   </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Birth Registration ID:</label>&nbsp;
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="<New>"><br><br>
+          <label for="exampleFormControlInput1">Registration Date:</label>&nbsp;
+          <input type="date" class="form-control" id="exampleFormControlInput2" placeholder="<Select New Date>">
+
+    </div><br><fieldset>
+      <legend>Child Details</legend>
+    <div class="form-group" name="Birth Details">
+        <label for="exampleFormControlInput1">Full Name:</label>&nbsp;
+        <input type="text" class="form-control" id="exampleFormControlInput1"><br><br>
+          <label for="exampleFormControlInput1">HIN:</label>&nbsp;
+        <input type="text" class="form-control" id="exampleFormControlInput2"><br><br>
+        <fieldset>
+            <legend>Birth Details</legend>
+            <label for="exampleFormControlInput1">Date of Birth:</label>&nbsp;
+          <input type="date" class="form-control" id="exampleFormControlInput3"><br><br>
+              <label for="exampleFormControlInput1">Time of Birth:</label>&nbsp;
+              <input type="time" class="form-control" id="exampleFormControlInput4"><br><br>
+              <label for="exampleFormControlSelect1">Gender: </label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Male</option>
+        <option>Female</option>
+        
+      </select><br><br>
+      <label for="exampleFormControlInput1">Birth Weight:</label>&nbsp;
+        <input type="text" class="form-control" id="exampleFormControlInput5"><label>(in grams)</label><br><br>
+          </fieldset>
+      
+    </div><br>
+  <fieldset>
+    <legend>Vaccination Details</legend>
+    <label for="exampleFormControlInput1">Vaccination Profile:</label>&nbsp;
+        <input type="text" class="form-control" id="exampleFormControlInput6"><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Birth Location Details</legend>
+        <label for="exampleFormControlInput1">Place of Birth:</label>&nbsp;
+        
+        <select class="form-control" id="exampleFormControlSelect2">
+            <option>Mahamodara Hospital</option>
+            <option>Lady Ridgeway Hospital</option>
+            <option>Castle Hospital</option>
+            <option>Hemas Hospital</option>
+            <option>Lanka Hospital</option>
+          </select><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Current Location</legend>
+            <label for="exampleFormControlInput1">RDHS Area: </label>&nbsp;
+            <select class="form-control" id="exampleFormControlSelect2">
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+              </select><br><br>
+                <label for="exampleFormControlInput1">DS Area: </label>&nbsp;
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                  </select><br><br>
+                <label for="exampleFormControlInput1">MOH Area: </label>&nbsp;
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                  </select><br><br>
+                <label for="exampleFormControlInput1">PHM Area: </label>&nbsp;
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                  </select><br><br>
+                <label for="exampleFormControlInput1">GN Area: </label>&nbsp;
+                <input type="text" class="form-control" id="exampleFormControlInput6"><br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Current Details</legend>
+                <label for="exampleFormControlInput1">Address Line 1:</label>&nbsp;
+                    <input type="text" class="form-control" id="exampleFormControlInput7"><br><br>
+                    <label for="exampleFormControlInput1">Address Line 2:</label>&nbsp;
+                    <input type="text" class="form-control" id="exampleFormControlInput8"><br><br>
+                    <label for="exampleFormControlInput1">Address Line 3:</label>&nbsp;
+                    <input type="text" class="form-control" id="exampleFormControlInput9"><br><br>
+                    <label for="exampleFormControlInput1">Postal Code:</label>&nbsp;
+                    <input type="text" class="form-control" id="exampleFormControlInput10"><br><br>
+                    <label for="exampleFormControlSelect1">Address Type: </label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Own</option>
+        <option>Rental</option>
+        </select><br><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Parent Details</legend>
+                    <label for="exampleFormControlInput1">Mother's Maiden Name:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput11"><br><br>
+                        <label for="exampleFormControlInput1">Mother's NIC:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput12"><br><br>
+                        <label for="exampleFormControlInput1">Mother's Reg. No:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput13"><br><br>
+                        <label for="exampleFormControlInput1">Father/Guardian Name:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput14"><br><br>
+                        <label for="exampleFormControlInput1">Father/Guardian NIC:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput15"><br><br>
+                        <label for="exampleFormControlInput1">Contact No.:</label>&nbsp;
+                        <input type="text" class="form-control" id="exampleFormControlInput16"><br><br>
+                        <input type="checkbox" value="MB">Multiple Births<br>
+                        <input type="checkbox" value="PSVsCRS">Protection Status Against Congenital Rubbella Syndrome(CRS)<br>
+                        <input type="checkbox" value="PSVsNNT">Protection Status Against Neonatal Tetanus(NNT)<br>
+<br><fieldset>
+    <legend>Additional Information</legend>
+    <label for="exampleFormControlInput1">Mother's BHT No.:</label>&nbsp;
+      <input type="text" class="form-control" id="exampleFormControlInput17"><br><br>
+      <label for="exampleFormControlInput1">Ward:</label>&nbsp;
+      <input type="text" class="form-control" id="exampleFormControlInput18"><br><br>
+      <label for="exampleFormControlInput1">Birth Certificate No.:</label>&nbsp;
+      <input type="text" class="form-control" id="exampleFormControlInput19"><br><br>
+      <label for="exampleFormControlInput1">Details of Delivery:</label>&nbsp;
+      <select class="form-control" id="exampleFormControlSelect2">
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select><br><br>
+        <label for="exampleFormControlInput1">Complication in Delivery:</label>&nbsp;
+        <input type="radio" name="complication" value="NoComplication"> No Complication&nbsp;&nbsp;
+        <input type="radio" name="complication" value="Complication"> Complication<br><br>
+        <label for="exampleFormControlInput1">Infant Status:</label>&nbsp;
+        <select class="form-control" id="exampleFormControlSelect2">
+            <option>Live</option>
+            <option>Dead</option>
+            
+          </select><br><br>
+    </fieldset>     
+</fieldset><br> 
+<div style="text-align:center">
+<input type="submit" value="Submit">&nbsp;<input type="reset" value="Reset">&nbsp;
+
+</div><br>
+</fieldset>
+    
+  </form>
+
 
