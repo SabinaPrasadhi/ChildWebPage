@@ -1,0 +1,10 @@
+h1 { color: purple;
+    text-align: center ;
+}
+form {
+    background-color: plum;
+    background-image: url("immunization.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
